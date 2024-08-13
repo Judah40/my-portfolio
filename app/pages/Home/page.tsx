@@ -10,7 +10,7 @@ const page = () => {
             <p className="text-xl text-black text-center">Hello</p>
           </div>
           <p className="text-4xl text-black text-center md:text-6xl">
-            I'm <span className="text-blue-500">Judah Alvin Dore</span>
+            I&apos;m <span className="text-blue-500">Judah Alvin Dore</span>
           </p>
           <p className="text-4xl text-black text-center md:text-6xl">
             Software Engineer

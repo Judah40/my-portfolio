@@ -40,7 +40,7 @@ const Header = () => {
   const { path } = useMyContext();
   useEffect(() => {
     console.log(pathsname.split("/")[2]);
-  }, []);
+  }, [pathsname]);
   return (
     <div className="flex w-full p-3  text-white flex-col items-center space-y-2">
       <Link href={""} className=" md:hidden border p-2 rounded border-blue-300">

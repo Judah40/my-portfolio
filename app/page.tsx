@@ -13,7 +13,7 @@ export default function Home() {
     setTimeout(() => {
       router.push("/pages/Home");
     }, 2000);
-  }, []);
+  }, [router]);
   return (
     <div className="h-[100vh] w-full flex items-center justify-center">
       <Dots color="blue" />;
